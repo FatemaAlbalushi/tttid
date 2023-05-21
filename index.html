@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Dynamic Doers</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <header class="d-flex justify-content-center py-3">
+        <ul class="nav nav-pills">
+          <li class="nav-item"><a href="#" class="nav-link active" aria-current="page" onclick="import('./ttt.mjs').then(module => module.mySum(1,2,3))">TRA</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+        </ul>
+      </header>
+    </div>
+
+    <div class="d-flex gap-5 justify-content-center">
+      <div class="dropdown-menu d-block position-static pt-0 mx-0 rounded-3 shadow overflow-hidden w-280px">
+        <form class="p-2 mb-2 bg-light border-bottom">
+          <input type="search" class="form-control" autocomplete="false" placeholder="Type to filter...">
+        </form>
+        <ul class="list-unstyled mb-0">
+          <li><a class="dropdown-item d-flex align-items-center gap-2 py-2" href="#">
+            <span class="d-inline-block bg-success rounded-circle p-1"></span>
+            Action
+          </a></li>
+          <li><a class="dropdown-item d-flex align-items-center gap-2 py-2" href="#">
+            <span class="d-inline-block bg-primary rounded-circle p-1"></span>
+            Another action
+          </a></li>
+          <li><a class="dropdown-item d-flex align-items-center gap-2 py-2" href="#">
+            <span class="d-inline-block bg-danger rounded-circle p-1"></span>
+            Something else here
+          </a></li>
+          <li><a class="dropdown-item d-flex align-items-center gap-2 py-2" href="#">
+            <span class="d-inline-block bg-info rounded-circle p-1"></span>
+            Separated link
+          </a></li>
+        </ul>
+      </div>
+    
+      <div class="dropdown-menu dropdown-menu-dark d-block position-static border-0 pt-0 mx-0 rounded-3 shadow overflow-hidden w-280px">
+        <form class="p-2 mb-2 bg-dark border-bottom border-dark">
+          <input type="search" class="form-control form-control-dark" autocomplete="false" placeholder="Type to filter...">
+        </form>
+        <ul class="list-unstyled mb-0">
+          <li><a class="dropdown-item d-flex align-items-center gap-2 py-2" href="#">
+            <span class="d-inline-block bg-success rounded-circle p-1"></span>
+            Action
+          </a></li>
+          <li><a class="dropdown-item d-flex align-items-center gap-2 py-2" href="#">
+            <span class="d-inline-block bg-primary rounded-circle p-1"></span>
+            Another action
+          </a></li>
+          <li><a class="dropdown-item d-flex align-items-center gap-2 py-2" href="#">
+            <span class="d-inline-block bg-danger rounded-circle p-1"></span>
+            Something else here
+          </a></li>
+          <li><a class="dropdown-item d-flex align-items-center gap-2 py-2" href="#">
+            <span class="d-inline-block bg-info rounded-circle p-1"></span>
+            Separated link
+          </a></li>
+        </ul>
+      </div>
+    </div>
+
+    <h1 id="Hw">Hello World</h1>
+    <h2 id="Wm">Welcome to fatema page</h2>
+    <script src="./ttt.mjs"></script>
+  </body>
+</html>
